@@ -13,6 +13,17 @@ public class Vehicule {
         return this.isStationne;
     }
 
+    public void setImmatriculation(String immatriculation)
+    {
+      this.immatriculation = immatriculation;
+    }
+
+    public void setIsStationne(Boolean isStationne)
+    {
+      this.isStationne = isStationne;
+    }
+
+    // constructeur
   public Vehicule(String immatriculation, Boolean isStationne){
     System.out.println("Création d'une voiture !");          
     this.immatriculation = immatriculation;
